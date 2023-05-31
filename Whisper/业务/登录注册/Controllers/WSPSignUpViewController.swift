@@ -14,6 +14,7 @@ class WSPSignUpViewController: WSPBaseViewController {
     @IBOutlet weak var nicknameTF: UITextField!
     @IBOutlet weak var codeTF: UITextField!
     @IBOutlet weak var startBt: UIButton!
+    @IBOutlet weak var backBt: UIButton!
     //MARK: - property public
     
     
@@ -76,6 +77,9 @@ private extension  WSPSignUpViewController {
                         RRRTipsHUD.hideHUD()
                         let user = WSPUser.deserialize(from: data)
                         mManager.user = user
+                        mManager.uuid = UIDevice.wsp_deviceUUID;
+                        UIApplication.shared.keyWindow?.rootViewController = WSPMainViewController()
+                        
                     } failure: { error in
                         RRRTipsHUD.showError(error.message)
                     }
@@ -87,6 +91,10 @@ private extension  WSPSignUpViewController {
                 
                 
             }
+        }.disposed(by: self.disposeBag)
+        
+        self.backBt.rx.tap.subscribe { [weak self] event in
+            self?.navigationController?.popViewController(animated: true)
         }.disposed(by: self.disposeBag)
         
     }

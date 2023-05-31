@@ -43,7 +43,7 @@ extension WSPSignInViewController {
 private extension  WSPSignInViewController {
     
     func setupViews() {
-        
+        self.navigationController?.navigationBar.isHidden = true
     }
     
     func addConstraints(){

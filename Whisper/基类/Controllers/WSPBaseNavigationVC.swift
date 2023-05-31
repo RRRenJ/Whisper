@@ -39,7 +39,7 @@ extension WSPBaseNavigationVC {
 private extension  WSPBaseNavigationVC {
     
     func setupViews() {
-        self.navigationBar.isHidden = true
+       
     }
     
     func addConstraints(){

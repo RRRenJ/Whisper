@@ -7,14 +7,21 @@
 
 import UIKit
 import SendbirdUIKit
+import SendbirdChatSDK
+import IQKeyboardManagerSwift
 
 class WSPSDKManager: NSObject {
     //MARK: - property public
     
-    func wsp_loadSDK() {
+    static func wsp_loadSDK() {
         SendbirdUI.initialize(applicationId: WSP_SENDBIRD_APPID) { error in
             
         }
+        SendbirdChatSDK.InitParams(applicationId: WSP_SENDBIRD_APPID)
+        IQKeyboardManager.shared.shouldResignOnTouchOutside = true
+        
+//        SBUModuleSet.groupChannelListModule.headerComponent?.leftBarButton? = UIBarButtonItem()
+        
     }
     
     

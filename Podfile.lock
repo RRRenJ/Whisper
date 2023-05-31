@@ -1,0 +1,104 @@
+PODS:
+  - Alamofire (5.7.1)
+  - FDFullscreenPopGesture (1.1)
+  - HandyJSON (5.0.2)
+  - IQKeyboardManagerSwift (6.5.11)
+  - Kingfisher (7.7.0)
+  - MJRefresh (3.7.5)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
+    - Moya/Core
+    - RxSwift (~> 6.0)
+  - RRRTipsHUD (2.1.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SAMKeychain (1.5.3)
+  - SendbirdChatSDK (4.8.5)
+  - SendBirdUIKit (3.5.8):
+    - SendbirdChatSDK (>= 4.8.5)
+  - SnapKit (5.6.0)
+  - SwifterSwift (5.2.0):
+    - SwifterSwift/AppKit (= 5.2.0)
+    - SwifterSwift/CoreAnimation (= 5.2.0)
+    - SwifterSwift/CoreGraphics (= 5.2.0)
+    - SwifterSwift/CoreLocation (= 5.2.0)
+    - SwifterSwift/Dispatch (= 5.2.0)
+    - SwifterSwift/Foundation (= 5.2.0)
+    - SwifterSwift/MapKit (= 5.2.0)
+    - SwifterSwift/SceneKit (= 5.2.0)
+    - SwifterSwift/SpriteKit (= 5.2.0)
+    - SwifterSwift/StoreKit (= 5.2.0)
+    - SwifterSwift/SwiftStdlib (= 5.2.0)
+    - SwifterSwift/UIKit (= 5.2.0)
+  - SwifterSwift/AppKit (5.2.0)
+  - SwifterSwift/CoreAnimation (5.2.0)
+  - SwifterSwift/CoreGraphics (5.2.0)
+  - SwifterSwift/CoreLocation (5.2.0)
+  - SwifterSwift/Dispatch (5.2.0)
+  - SwifterSwift/Foundation (5.2.0)
+  - SwifterSwift/MapKit (5.2.0)
+  - SwifterSwift/SceneKit (5.2.0)
+  - SwifterSwift/SpriteKit (5.2.0)
+  - SwifterSwift/StoreKit (5.2.0)
+  - SwifterSwift/SwiftStdlib (5.2.0)
+  - SwifterSwift/UIKit (5.2.0)
+
+DEPENDENCIES:
+  - FDFullscreenPopGesture
+  - HandyJSON
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - MJRefresh
+  - Moya/RxSwift
+  - RRRTipsHUD
+  - RxCocoa
+  - SAMKeychain
+  - SendBirdUIKit
+  - SnapKit
+  - SwifterSwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FDFullscreenPopGesture
+    - HandyJSON
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - MJRefresh
+    - Moya
+    - RRRTipsHUD
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SAMKeychain
+    - SendbirdChatSDK
+    - SendBirdUIKit
+    - SnapKit
+    - SwifterSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  Kingfisher: f043ac666dfc96c1f37604f93effb45a7ee3a3e1
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  RRRTipsHUD: 3d22cfad9488bdd40bdfa30bf4736be504e29f08
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SendbirdChatSDK: e4976748550b78542bf0c65d16541a33f2003e15
+  SendBirdUIKit: dc7264402c1ae6c7c11d0bc221ad798c078c8d69
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
+
+PODFILE CHECKSUM: 63ce3e76383693612a9df02f9143837698e35719
+
+COCOAPODS: 1.12.1

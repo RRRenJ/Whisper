@@ -39,6 +39,19 @@ extension WSPMainViewController {
 private extension  WSPMainViewController {
     
     func setupViews() {
+        self.tabBar.isTranslucent = false;
+        self.tabBar.barStyle =  .black;
+        
+        let messageNavi = WSPBaseNavigationVC(rootViewController: WSPMessageListVC())
+        let messageItem = UITabBarItem(title: nil, image: #imageLiteral(resourceName: "wps_chat_unselect"), selectedImage: #imageLiteral(resourceName: "wps_chat_select"))
+        messageNavi.tabBarItem = messageItem;
+        
+        let meNavi = WSPBaseNavigationVC(rootViewController: WSPMeViewController())
+        let meItem = UITabBarItem(title: nil, image: #imageLiteral(resourceName: "wps_me_unselect"), selectedImage: #imageLiteral(resourceName: "wps_me_select"))
+        meNavi.tabBarItem = meItem;
+        
+        self.addChild(messageNavi)
+        self.addChild(meNavi)
         
     }
     

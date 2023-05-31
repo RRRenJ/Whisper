@@ -8,22 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		77F091552A26E782001C6F56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F091542A26E782001C6F56 /* AppDelegate.swift */; };
-		77F091572A26E782001C6F56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F091562A26E782001C6F56 /* SceneDelegate.swift */; };
 		77F091592A26E782001C6F56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F091582A26E782001C6F56 /* ViewController.swift */; };
 		77F0915C2A26E782001C6F56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F0915A2A26E782001C6F56 /* Main.storyboard */; };
 		77F0915E2A26E784001C6F56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F0915D2A26E784001C6F56 /* Assets.xcassets */; };
 		77F091612A26E784001C6F56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F0915F2A26E784001C6F56 /* LaunchScreen.storyboard */; };
+		77F0916D2A26E896001C6F56 /* WSPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0916C2A26E896001C6F56 /* WSPBaseViewController.swift */; };
+		77F0916F2A26E8C8001C6F56 /* WSPSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0916E2A26E8C8001C6F56 /* WSPSignInViewController.swift */; };
+		77F091722A26EAF6001C6F56 /* WSPSDKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F091712A26EAF6001C6F56 /* WSPSDKManager.swift */; };
+		77F091742A26EC28001C6F56 /* WSPConfigConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F091732A26EC28001C6F56 /* WSPConfigConst.swift */; };
+		77F091772A26EE2B001C6F56 /* WSPTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F091762A26EE2B001C6F56 /* WSPTools.swift */; };
+		77F091792A26F4E2001C6F56 /* WSPAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F091782A26F4E2001C6F56 /* WSPAPI.swift */; };
+		77F0917C2A26F593001C6F56 /* WSPNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0917B2A26F593001C6F56 /* WSPNetwork.swift */; };
+		77F0917E2A26FC8C001C6F56 /* WSPUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0917D2A26FC8C001C6F56 /* WSPUser.swift */; };
+		77F091812A26FF7E001C6F56 /* WSPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F091802A26FF7E001C6F56 /* WSPManager.swift */; };
+		77F091842A270517001C6F56 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F091832A270517001C6F56 /* Login.storyboard */; };
+		77F091862A271A35001C6F56 /* WSPSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F091852A271A35001C6F56 /* WSPSignUpViewController.swift */; };
+		77F091882A272B65001C6F56 /* WSPBaseNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F091872A272B65001C6F56 /* WSPBaseNavigationVC.swift */; };
+		77F0918B2A273169001C6F56 /* Impact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77F0918A2A273169001C6F56 /* Impact.ttf */; };
+		77F0918F2A273AD5001C6F56 /* WSPMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0918E2A273AD5001C6F56 /* WSPMainViewController.swift */; };
+		77F091932A2749D5001C6F56 /* WSPMessageListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F091922A2749D5001C6F56 /* WSPMessageListVC.swift */; };
+		77F091962A274A2E001C6F56 /* WSPMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F091952A274A2D001C6F56 /* WSPMeViewController.swift */; };
+		7D71949ED944DB66F47329BE /* Pods_Whisper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8B0B6C66613B447E26F407 /* Pods_Whisper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		380D110316D5311A86F675EE /* Pods-Whisper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whisper.debug.xcconfig"; path = "Target Support Files/Pods-Whisper/Pods-Whisper.debug.xcconfig"; sourceTree = "<group>"; };
 		77F091512A26E782001C6F56 /* Whisper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whisper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F091542A26E782001C6F56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77F091562A26E782001C6F56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		77F091582A26E782001C6F56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		77F0915B2A26E782001C6F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77F0915D2A26E784001C6F56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77F091602A26E784001C6F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77F091622A26E784001C6F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77F0916C2A26E896001C6F56 /* WSPBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSPBaseViewController.swift; sourceTree = "<group>"; };
+		77F0916E2A26E8C8001C6F56 /* WSPSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSPSignInViewController.swift; sourceTree = "<group>"; };
+		77F091712A26EAF6001C6F56 /* WSPSDKManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSPSDKManager.swift; sourceTree = "<group>"; };
+		77F091732A26EC28001C6F56 /* WSPConfigConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSPConfigConst.swift; sourceTree = "<group>"; };
+		77F091762A26EE2B001C6F56 /* WSPTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WSP\bTools.swift"; sourceTree = "<group>"; };
+		77F091782A26F4E2001C6F56 /* WSPAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSPAPI.swift; sourceTree = "<group>"; };
+		77F0917B2A26F593001C6F56 /* WSPNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSPNetwork.swift; sourceTree = "<group>"; };
+		77F0917D2A26FC8C001C6F56 /* WSPUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSPUser.swift; sourceTree = "<group>"; };
+		77F091802A26FF7E001C6F56 /* WSPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSPManager.swift; sourceTree = "<group>"; };
+		77F091832A270517001C6F56 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		77F091852A271A35001C6F56 /* WSPSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSPSignUpViewController.swift; sourceTree = "<group>"; };
+		77F091872A272B65001C6F56 /* WSPBaseNavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSPBaseNavigationVC.swift; sourceTree = "<group>"; };
+		77F0918A2A273169001C6F56 /* Impact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Impact.ttf; sourceTree = "<group>"; };
+		77F0918E2A273AD5001C6F56 /* WSPMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSPMainViewController.swift; sourceTree = "<group>"; };
+		77F091922A2749D5001C6F56 /* WSPMessageListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSPMessageListVC.swift; sourceTree = "<group>"; };
+		77F091952A274A2D001C6F56 /* WSPMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSPMeViewController.swift; sourceTree = "<group>"; };
+		8C8B0B6C66613B447E26F407 /* Pods_Whisper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Whisper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5BA015B10DDCA877381CA99 /* Pods-Whisper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whisper.release.xcconfig"; path = "Target Support Files/Pods-Whisper/Pods-Whisper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D71949ED944DB66F47329BE /* Pods_Whisper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +77,8 @@
 			children = (
 				77F091532A26E782001C6F56 /* Whisper */,
 				77F091522A26E782001C6F56 /* Products */,
+				981C6B3A5AD118D4D344551E /* Pods */,
+				EB0CDAC8915311475A39D1B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +93,13 @@
 		77F091532A26E782001C6F56 /* Whisper */ = {
 			isa = PBXGroup;
 			children = (
+				77F091892A27315F001C6F56 /* 资源 */,
+				77F091822A2704FE001C6F56 /* StoryBorad */,
+				77F0917A2A26F574001C6F56 /* 网络请求 */,
+				77F091702A26EAB7001C6F56 /* 公共类 */,
+				77F0916A2A26E83C001C6F56 /* 基类 */,
+				77F0918C2A273A96001C6F56 /* 业务 */,
 				77F091542A26E782001C6F56 /* AppDelegate.swift */,
-				77F091562A26E782001C6F56 /* SceneDelegate.swift */,
 				77F091582A26E782001C6F56 /* ViewController.swift */,
 				77F0915A2A26E782001C6F56 /* Main.storyboard */,
 				77F0915D2A26E784001C6F56 /* Assets.xcassets */,
@@ -67,6 +109,145 @@
 			path = Whisper;
 			sourceTree = "<group>";
 		};
+		77F091682A26E7F7001C6F56 /* 登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+				77F091692A26E808001C6F56 /* Controllers */,
+			);
+			path = "登录注册";
+			sourceTree = "<group>";
+		};
+		77F091692A26E808001C6F56 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				77F0916E2A26E8C8001C6F56 /* WSPSignInViewController.swift */,
+				77F091852A271A35001C6F56 /* WSPSignUpViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		77F0916A2A26E83C001C6F56 /* 基类 */ = {
+			isa = PBXGroup;
+			children = (
+				77F0917F2A26FCDA001C6F56 /* Models */,
+				77F0916B2A26E841001C6F56 /* Controllers */,
+			);
+			path = "基类";
+			sourceTree = "<group>";
+		};
+		77F0916B2A26E841001C6F56 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				77F0916C2A26E896001C6F56 /* WSPBaseViewController.swift */,
+				77F091872A272B65001C6F56 /* WSPBaseNavigationVC.swift */,
+				77F0918E2A273AD5001C6F56 /* WSPMainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		77F091702A26EAB7001C6F56 /* 公共类 */ = {
+			isa = PBXGroup;
+			children = (
+				77F091712A26EAF6001C6F56 /* WSPSDKManager.swift */,
+				77F091732A26EC28001C6F56 /* WSPConfigConst.swift */,
+				77F091762A26EE2B001C6F56 /* WSPTools.swift */,
+				77F0917D2A26FC8C001C6F56 /* WSPUser.swift */,
+				77F091802A26FF7E001C6F56 /* WSPManager.swift */,
+			);
+			path = "公共类";
+			sourceTree = "<group>";
+		};
+		77F0917A2A26F574001C6F56 /* 网络请求 */ = {
+			isa = PBXGroup;
+			children = (
+				77F091782A26F4E2001C6F56 /* WSPAPI.swift */,
+				77F0917B2A26F593001C6F56 /* WSPNetwork.swift */,
+			);
+			path = "网络请求";
+			sourceTree = "<group>";
+		};
+		77F0917F2A26FCDA001C6F56 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		77F091822A2704FE001C6F56 /* StoryBorad */ = {
+			isa = PBXGroup;
+			children = (
+				77F091832A270517001C6F56 /* Login.storyboard */,
+			);
+			path = StoryBorad;
+			sourceTree = "<group>";
+		};
+		77F091892A27315F001C6F56 /* 资源 */ = {
+			isa = PBXGroup;
+			children = (
+				77F0918A2A273169001C6F56 /* Impact.ttf */,
+			);
+			path = "资源";
+			sourceTree = "<group>";
+		};
+		77F0918C2A273A96001C6F56 /* 业务 */ = {
+			isa = PBXGroup;
+			children = (
+				77F091902A27496C001C6F56 /* 聊天 */,
+				77F0918D2A273AA4001C6F56 /* 我的 */,
+				77F091682A26E7F7001C6F56 /* 登录注册 */,
+			);
+			path = "业务";
+			sourceTree = "<group>";
+		};
+		77F0918D2A273AA4001C6F56 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				77F091942A2749FF001C6F56 /* Controllers */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		77F091902A27496C001C6F56 /* 聊天 */ = {
+			isa = PBXGroup;
+			children = (
+				77F091912A27497B001C6F56 /* Controllers */,
+			);
+			path = "聊天";
+			sourceTree = "<group>";
+		};
+		77F091912A27497B001C6F56 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				77F091922A2749D5001C6F56 /* WSPMessageListVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		77F091942A2749FF001C6F56 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				77F091952A274A2D001C6F56 /* WSPMeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		981C6B3A5AD118D4D344551E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				380D110316D5311A86F675EE /* Pods-Whisper.debug.xcconfig */,
+				E5BA015B10DDCA877381CA99 /* Pods-Whisper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB0CDAC8915311475A39D1B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C8B0B6C66613B447E26F407 /* Pods_Whisper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77F091652A26E784001C6F56 /* Build configuration list for PBXNativeTarget "Whisper" */;
 			buildPhases = (
+				F2AA592E4B490063F00C268F /* [CP] Check Pods Manifest.lock */,
 				77F0914D2A26E782001C6F56 /* Sources */,
 				77F0914E2A26E782001C6F56 /* Frameworks */,
 				77F0914F2A26E782001C6F56 /* Resources */,
+				A2D61E688CB31CAF04DEFB87 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -94,6 +277,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = WSP;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
@@ -125,22 +309,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77F091842A270517001C6F56 /* Login.storyboard in Resources */,
 				77F091612A26E784001C6F56 /* LaunchScreen.storyboard in Resources */,
 				77F0915E2A26E784001C6F56 /* Assets.xcassets in Resources */,
 				77F0915C2A26E782001C6F56 /* Main.storyboard in Resources */,
+				77F0918B2A273169001C6F56 /* Impact.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2D61E688CB31CAF04DEFB87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Whisper/Pods-Whisper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Whisper/Pods-Whisper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Whisper/Pods-Whisper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2AA592E4B490063F00C268F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Whisper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		77F0914D2A26E782001C6F56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77F0918F2A273AD5001C6F56 /* WSPMainViewController.swift in Sources */,
+				77F091742A26EC28001C6F56 /* WSPConfigConst.swift in Sources */,
+				77F0917E2A26FC8C001C6F56 /* WSPUser.swift in Sources */,
+				77F091722A26EAF6001C6F56 /* WSPSDKManager.swift in Sources */,
+				77F091862A271A35001C6F56 /* WSPSignUpViewController.swift in Sources */,
 				77F091592A26E782001C6F56 /* ViewController.swift in Sources */,
+				77F091932A2749D5001C6F56 /* WSPMessageListVC.swift in Sources */,
+				77F091882A272B65001C6F56 /* WSPBaseNavigationVC.swift in Sources */,
+				77F0917C2A26F593001C6F56 /* WSPNetwork.swift in Sources */,
+				77F091812A26FF7E001C6F56 /* WSPManager.swift in Sources */,
+				77F091792A26F4E2001C6F56 /* WSPAPI.swift in Sources */,
+				77F091772A26EE2B001C6F56 /* WSPTools.swift in Sources */,
+				77F0916F2A26E8C8001C6F56 /* WSPSignInViewController.swift in Sources */,
 				77F091552A26E782001C6F56 /* AppDelegate.swift in Sources */,
-				77F091572A26E782001C6F56 /* SceneDelegate.swift in Sources */,
+				77F0916D2A26E896001C6F56 /* WSPBaseViewController.swift in Sources */,
+				77F091962A274A2E001C6F56 /* WSPMeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +523,7 @@
 		};
 		77F091662A26E784001C6F56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 380D110316D5311A86F675EE /* Pods-Whisper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,11 +532,16 @@
 				DEVELOPMENT_TEAM = ZHL2ZXZUJ8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Whisper/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Whisper would like to use your camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Whisper would like to use your microphone";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Whisper would like to save photos to your photo library";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Whisper  would like access to your photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +557,7 @@
 		};
 		77F091672A26E784001C6F56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BA015B10DDCA877381CA99 /* Pods-Whisper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,11 +566,16 @@
 				DEVELOPMENT_TEAM = ZHL2ZXZUJ8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Whisper/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Whisper would like to use your camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Whisper would like to use your microphone";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Whisper would like to save photos to your photo library";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Whisper  would like access to your photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
